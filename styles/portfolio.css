@@ -1,6 +1,6 @@
 /* Common Shared Style */
 body {
-    // <uniquifier>: Use a unique and descriptive class name
+    /* // <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 300 to 800
 
     // <uniquifier>: Use a unique and descriptive class name
@@ -14,15 +14,14 @@ body {
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-    }
+        font-variation-settings:"width" 100;
+    } */
 }
 
 .text-primary {
     color: #FD6E0A;
 }
-.button-primery{
+.button-primary{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -37,6 +36,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+   
 }
 
 .nav-title {
@@ -58,4 +59,16 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header related style */
+.header{
+    background-color:#fff8f3 ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
