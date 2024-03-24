@@ -87,8 +87,9 @@ nav a {
 .header {
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    height: 91vh;
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
+    background-position: bottom right, bottom left;
 
 }
 
@@ -105,6 +106,7 @@ nav a {
 
 .banner .profile-picture {
     width: 500px;
+    height: 69.5vh;
 }
 
 .banner-greeting {
